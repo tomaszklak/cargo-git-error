@@ -1,0 +1,9 @@
+[package]
+name = "git-error"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hello = { git = "https://github.com/tomaszklak/hello.git", rev = "4fa9227dca966071b7e030780c0f8bd7b235403b" }
